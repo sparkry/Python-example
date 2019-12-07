@@ -7,6 +7,13 @@ while counter < 101:
 print(num)
 
 
+#使用for循环计算
+sum = 0
+for i in range(1,101):
+    sum += i
+print(sum)
+
+
 #9*9乘法表
 for x in range(1,10):
     for y in range(1,x+1):
@@ -43,3 +50,5 @@ while counter < 101:
     else:
         continue
 print(number)
+
+

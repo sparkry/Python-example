@@ -25,3 +25,10 @@ for c in atuple:
 
 for d  in adict:
     print('%s:%s' % (d,adict[d]))
+
+
+
+sum = 0
+for i in range(1,101):
+    sum += i
+print(sum)
