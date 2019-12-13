@@ -16,7 +16,7 @@ class CountPatt:
         return patt_dict
 
 if __name__ == '__main__':
-    fname = 'access_log'
+    fname = 'access_log'   //日志文件路径,绝对路劲或者相对路径
     ip = '^(\d+\.){3}\d+'
     br = 'Chrome|MSIE|Firefox'
     wl = 'Windows|Linux'
