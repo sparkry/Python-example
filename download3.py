@@ -13,5 +13,5 @@ def download(url, fname):
 
 if __name__ == '__main__':
     download(sys.argv[1], sys.argv[2])
-# python download.py http://xxxx /tmp/xxxx
+# python download.py http://xxxx /tmp/xxxx,请使用图片源地址,目标地址不宜太长,否则出错
 # eog /tmp/xxxx.jpg
