@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     #取出网易首页中所有的图片网址
     img_patt = '(http|https)://[\w./-]+\.(png|jpg|jpeg|gif)'
-    imgs = get_patt(fname163,img_patt,encoding='gbk')
+    imgs = get_patt(fname163,img_patt,encoding='gbk') #默认字符集为utf-8,字符集格式需要和网页文件匹配
     print(imgs)
 
 
